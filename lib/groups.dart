@@ -170,7 +170,7 @@ class _GroupsState extends State<Groups> {
     Shared().keepRoom("roomUrl", urlList[element]);
     Timer(Duration(milliseconds: 800), (){
       //Navigator.push(context, createRoute(Deneme(url: urlList[element])));
-      Navigator.push(context, createRoute(ChatRoom(url: "https://sinanchatapp.herokuapp.com")));
+      Navigator.push(context, createRoute(ChatRoom(url: "")));
     });
   }
 }
